@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/finance-test-task/static/css/main.2e7919c8.chunk.css",
+    "main.js": "/finance-test-task/static/js/main.552824b2.chunk.js",
+    "main.js.map": "/finance-test-task/static/js/main.552824b2.chunk.js.map",
+    "runtime-main.js": "/finance-test-task/static/js/runtime-main.3e115f5d.js",
+    "runtime-main.js.map": "/finance-test-task/static/js/runtime-main.3e115f5d.js.map",
+    "static/js/2.fde47217.chunk.js": "/finance-test-task/static/js/2.fde47217.chunk.js",
+    "static/js/2.fde47217.chunk.js.map": "/finance-test-task/static/js/2.fde47217.chunk.js.map",
+    "static/js/3.b2982021.chunk.js": "/finance-test-task/static/js/3.b2982021.chunk.js",
+    "static/js/3.b2982021.chunk.js.map": "/finance-test-task/static/js/3.b2982021.chunk.js.map",
+    "index.html": "/finance-test-task/index.html",
+    "static/css/main.2e7919c8.chunk.css.map": "/finance-test-task/static/css/main.2e7919c8.chunk.css.map",
+    "static/js/2.fde47217.chunk.js.LICENSE.txt": "/finance-test-task/static/js/2.fde47217.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e115f5d.js",
+    "static/js/2.fde47217.chunk.js",
+    "static/css/main.2e7919c8.chunk.css",
+    "static/js/main.552824b2.chunk.js"
+  ]
+}
