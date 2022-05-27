@@ -1,0 +1,138 @@
+.tickers {
+  margin: 10px 0;
+
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.tickers__item {
+  padding: 6px;
+
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+
+  box-sizing: border-box;
+
+  width: 170px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid grey;
+  
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1rem;
+
+  transition: background-color 0.1s linear;
+}
+
+.tickers__item:hover {
+  background-color: #d0d0d7;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.tickers__delete {
+  padding: 0 5px;
+
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  
+  background-color: #fff;
+
+  border-radius: 8px;
+  border: 1px solid gray;
+  
+  transition: background-color 0.1s linear;
+}
+
+.tickers__delete:hover {
+  background-color: #d0d0d7;
+}
+
+.tickers__arrow-up {
+  width: 32px;
+  height: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #e6f4ea;
+
+  border-radius: 8px;
+}
+
+.tickers__arrow-down {
+  width: 32px;
+  height: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fce8e6;
+
+  border-radius: 8px;
+}
+
+.tickers__title {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1rem;
+}
+
+.ticker {
+  margin: 0 auto 10px;
+  padding: 10px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+
+  border-radius: 8px;
+  border: 1px solid grey;
+
+  background-color: #fff;
+}
+
+.ticker__title {
+  margin: 0;
+}
+
+.ticker__subtitle {
+  margin-bottom: 10px;
+
+  font-size: 10px;
+  
+  color: grey;
+}
+
+.ticker__price {
+  margin-bottom: 10px;
+}
+
+.ticker__button {
+  margin: 0 auto;
+  padding: 10px;
+
+  font-size: 1em;
+  font-weight: bold;
+  
+  display: block;
+
+  border-radius: 8px;
+  border: 1px solid grey;
+}
