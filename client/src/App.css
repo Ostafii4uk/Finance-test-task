@@ -36,29 +36,6 @@
   background-color: #d0d0d7;
 }
 
-.wrapper {
-  position: relative;
-}
-
-.tickers__delete {
-  padding: 0 5px;
-
-  position: absolute;
-  right: -8px;
-  top: -8px;
-  
-  background-color: #fff;
-
-  border-radius: 8px;
-  border: 1px solid gray;
-  
-  transition: background-color 0.1s linear;
-}
-
-.tickers__delete:hover {
-  background-color: #d0d0d7;
-}
-
 .tickers__arrow-up {
   width: 32px;
   height: 32px;
@@ -124,6 +101,26 @@
   margin-bottom: 10px;
 }
 
+.ticker__price-up {
+  margin-left: 5px;
+  color: #137333;
+}
+
+.ticker__price-down {
+  margin-left: 5px;
+  color: #a50e0e;
+}
+
+.ticker__change-up {
+  margin-left: 5px;
+  color: #137333;
+}
+
+.ticker__change-down {
+  margin-left: 5px;
+  color: #a50e0e
+}
+
 .ticker__button {
   margin: 0 auto;
   padding: 10px;
@@ -135,4 +132,8 @@
 
   border-radius: 8px;
   border: 1px solid grey;
+}
+
+.ticker__button:hover {
+  color: #a50e0e;
 }

@@ -24,12 +24,6 @@ const reducer = (state = initialState, action) => {
         ...state,
         findedTickers: '',
       }
-    case 'removeTicker':
-      return {
-        ...state,
-        findedTickers: null,
-        removedTickers: [...state.removedTickers, action.payload],
-      }
     default:
       return state;
   }

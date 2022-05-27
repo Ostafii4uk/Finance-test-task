@@ -12,12 +12,3 @@ export const closedFindedTickersCreater = () => ({
   type: 'closeTicker',
 });
 
-export const removeTickerCreator = (payload) => ({
-  type: 'removeTicker',
-  payload,
-})
-
-export const addFilteredTickersCreator = (payload) => ({
-  type: 'addFilteredTickers',
-  payload,
-})
